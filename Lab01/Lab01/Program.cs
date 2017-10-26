@@ -5,12 +5,10 @@ namespace Lab01
     {
         static void Main(string[] args)
         {
-            const double i = 123.456789d;
-            Console.WriteLine("{0:F1}", i);
-            Console.WriteLine("{0:F2}", i);
-            Console.WriteLine("{0:F3}", i);
-            Console.WriteLine("{0:F4}", i);
-            Console.WriteLine("{0:F5}", i);
+            char ch;
+            Console.Write("Press a key followed by ENTER:");
+            ch = (char)Console.Read();  // get a char
+            Console.WriteLine("Your key is: " + ch);
         }
     }
 }
