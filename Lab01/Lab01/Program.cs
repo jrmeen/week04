@@ -5,10 +5,19 @@ namespace variableProperties
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Data type : ushort");
-            Console.WriteLine("Size :" + sizeof(ushort));
-            Console.WriteLine("Minimum Value :" + int.MinValue);
-            Console.WriteLine("Maximum Value :" + int.MaxValue);
+            string name, lname, ID, GPA;
+             Console.Write("Enter name:");
+             name = Console.ReadLine();
+             Console.Write("Enter Lastname:");
+             lname = Console.ReadLine();
+             Console.Write("Enter ID:");
+             ID = Console.ReadLine();
+             Console.Write("Enter GPA.:");
+             GPA = Console.ReadLine();
+             Console.WriteLine("------------------");
+             Console.Write("Name: {0}\nLastname: {1}\nID: {2}\nGPA.:{3}\n", name, lname, ID, GPA);
+             Console.ReadKey();
+
         }
     }
 }
