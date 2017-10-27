@@ -1,14 +1,18 @@
 ﻿using System;
-namespace variableProperties
+namespace RandomNumber
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Data type : ulong");
-            Console.WriteLine("Size :" + sizeof(ulong));
-            Console.WriteLine("Minimum Value :" + int.MinValue);
-            Console.WriteLine("Maximum Value :" + int.MaxValue);
+            Random random = new Random();
+            int randomNumber = random.Next(0, 9),a;
+            bool b;
+            Console.Write("Enter number: ");
+            a = int.Parse(Console.ReadLine());
+            Console.WriteLine("Random Number: {0}",randomNumber);
+            b = a > randomNumber;
+            Console.WriteLine("Boolean {0}> {1} is {2}", a, randomNumber, b);
         }
     }
 }
