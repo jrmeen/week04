@@ -6,7 +6,7 @@ namespace thruthTable
         static void Main(string[] args)
         {
             bool A, B, Y;
-            Console.WriteLine("      Y = A AND B");
+            Console.WriteLine("      Y = A OR B");
             Console.WriteLine("-----------------------");
             Console.WriteLine("   A      B\t|  Y");
             Console.WriteLine("-----------------------");
