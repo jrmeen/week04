@@ -5,8 +5,8 @@ namespace variableProperties
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Data type : float");
-            Console.WriteLine("Size :" + sizeof(float));
+            Console.WriteLine("Data type : double");
+            Console.WriteLine("Size :" + sizeof(double));
             Console.WriteLine("Minimum Value :" + int.MinValue);
             Console.WriteLine("Maximum Value :" + int.MaxValue);
         }
